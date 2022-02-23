@@ -1,0 +1,33 @@
+:root
+{
+    --color-primario: #36393f;
+    --color-secundario: #2f3136;
+    --color-terciario: #292b2f;
+    
+    --tamano-texto: 16px;
+    --tamano-titulo: 24px;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+html, body
+{
+   width: 100%;
+   height: 100%;
+   background: var(--color-primario);
+}
+div
+{
+    display: flex;
+}
+#contenedor_principal
+{
+    width: 100%;
+    height: 100%;
+}
